@@ -1,10 +1,10 @@
 applications:
 - path: .
-  memory: 256M
+  memory: 512M
   instances: 1
   domain: mybluemix.net
-  name: APP ASO
+  name: APP ASO servicio texto a voz
   host: app-aso
   disk_quota: 1024M
   services:
-  - APP ASO servicio texto a voz
+  APP ASO servicio texto a voz
